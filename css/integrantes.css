@@ -40,14 +40,14 @@ main {
     margin-bottom: 1rem;
 }
 
-.banner-intro{
+.banner-intro {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 12rem;
     background-image: url('../assets/images/1b667288-0fd7-411d-b521-b2f09d698b01.jpg');
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 
 }
@@ -79,11 +79,11 @@ main {
     justify-self: center;
     align-self: center;
     width: 18rem;
-    height: 24rem;
     border-radius: 1rem;
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    overflow: hidden;
 }
 
 .img-funcionario {
