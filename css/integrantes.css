@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* MAIN */
+
+main {
+    background-color: #43A549;
+}
+
+.content-restaurante{
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+}
+
+.texto-intro h1 {
+    color: #F9BB2C;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.texto-intro p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+}
+
+.imagem-restaurante{
+    display: flex;
+    justify-content: center;
+}
+
+.img-restaurante{
+    width: 80vw;
+    border-radius: 1rem;
+}
+
+/* MAIN - FUNCIONARIOS */
+.titulo-section-funcionario{
+    margin-bottom: 1rem;
+}
+
+.banner-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 12rem;
+    background-image: url('../assets/images/1b667288-0fd7-411d-b521-b2f09d698b01.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+.titulo-intro {
+    color: #F9BB2C;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.titulo-funcionario{
+    color: #F9BB2C;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* MAIN - CARDS */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-funcionario {
+    background-color: #636363;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    width: 18rem;
+    height: 24rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.img-funcionario {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: solid 2px #F9BB2C;
+}   
+
+.nome-funcionario, .desc-funcionario {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+
+.cargo-funcionario {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.rede-funcionarios {
+    margin-top: 1rem;
+}
+ 
+.logo-social {
+    width: 1.8rem;
+    color:#F9BB2C;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .content-restaurante{
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+        padding: 3rem 8rem;
+    }
+    .img-restaurante{
+        width: 90%;
+    }
+    .imagem-restaurante{
+        justify-content: right;
+    }
+    .texto-intro{
+        padding: 0;
+        text-align: left;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 8rem;
+    }
+    .footer-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .cards{
+        padding: 0 14rem;
+    }
+    .card-funcionario{
+        width: 20rem;
+    }
+    .content-restaurante{
+        padding: 3rem 12rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .titulo-intro{
+        font-size: 3rem;
+    }
+}
+   
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/font/Montserrat-VariableFont_wght.ttf');
+}

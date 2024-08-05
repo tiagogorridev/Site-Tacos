@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Fjalla One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #6C3E88;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    width: 70px;
+}
+
+.header-title a{
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-links li, .header-title li {
+    list-style: none;
+}
+
+header a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+header a:hover {
+    color: #F9BB2C;
+    opacity: 0.8;
+}
+
+/* FOOTER */    
+
+.footer-container {
+    font-family: "Poppins", sans-serif;
+    color: #F9BB2C;
+    background-color: #6C3E88;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.footer-container span {
+    font-size: 2.5rem;
+    display: block;
+}
+
+.footer-section h2, .text-footer p {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.footer-section a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.521);
+    display: block;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.footer-contact a img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    
+}
+
+.footer-contact a .instagram:hover {
+    opacity: 0.8;
+}
+
+.footer-contact a .facebook:hover {
+    opacity: 0.8;
+}
+
+.footer-contact a .email:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 992px) {
+    .content-restaurante{
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+        padding: 3rem 8rem;
+    }
+    .img-restaurante{
+        width: 90%;
+    }
+    .imagem-restaurante{
+        justify-content: right;
+    }
+    .texto-intro{
+        padding: 0;
+        text-align: left;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 8rem;
+    }
+    .footer-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .cards{
+        padding: 0 14rem;
+    }
+    .card-funcionario{
+        width: 20rem;
+    }
+    .content-restaurante{
+        padding: 3rem 12rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .titulo-intro{
+        font-size: 3rem;
+    }
+}
+   
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/font/Montserrat-VariableFont_wght.ttf');
+}
